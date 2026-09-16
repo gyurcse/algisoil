@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         revealObserver.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+  }, { threshold: 0.01, rootMargin: '0px 0px -10% 0px' });
 
   revealEls.forEach(el => revealObserver.observe(el));
 
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
           rootObserver.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.3 });
+    }, { threshold: 0.1, rootMargin: '0px 0px -10% 0px' });
     rootObserver.observe(visionVisual);
   }
 
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         counterObserver.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.6 });
+  }, { threshold: 0.2, rootMargin: '0px 0px -10% 0px' });
 
   counters.forEach(el => counterObserver.observe(el));
 

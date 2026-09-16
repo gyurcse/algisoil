@@ -732,8 +732,8 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
    ========================================================================== */
 .reveal {
   opacity: 0;
-  transform: translateY(26px);
-  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease);
+  transform: translateY(16px);
+  transition: opacity 0.45s var(--ease), transform 0.45s var(--ease);
 }
 .reveal.in-view { opacity: 1; transform: translateY(0); }
 
