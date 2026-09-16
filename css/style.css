@@ -206,6 +206,36 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
 .main-nav .nav-cta::after { display: none; }
 .main-nav .nav-cta:hover { color: var(--black); filter: brightness(1.08); transform: translateY(-1px); }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background: rgba(246,247,241,0.08);
+  border: 1px solid var(--line-dark);
+  border-radius: 100px;
+  padding: 3px;
+}
+.lang-btn {
+  padding: 5px 12px;
+  border-radius: 100px;
+  background: none;
+  border: none;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: rgba(246,247,241,0.6);
+  transition: color 0.3s, background 0.3s;
+}
+.lang-btn:hover { color: var(--off-white); }
+.lang-btn.active { color: var(--black); background: var(--lime); }
+.lang-btn.active:hover { color: var(--black); }
+
 .menu-toggle {
   display: none;
   flex-direction: column;

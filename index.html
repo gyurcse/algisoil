@@ -20,30 +20,36 @@
   <div class="container header-inner">
     <a href="#top" class="brand">Algi<span>Soil</span></a>
     <nav class="main-nav" id="mainNav">
-      <a href="#vision" data-nav>Vision</a>
-      <a href="#story" data-nav>Story</a>
-      <a href="#team" data-nav>Team</a>
-      <a href="#alginite" data-nav>Alginite</a>
-      <a href="#approach" data-nav>Approach</a>
-      <a href="#partnership" data-nav>Science</a>
-      <a href="#join" class="nav-cta" data-nav>Join us</a>
+      <a href="#vision" data-nav data-i18n="nav.vision">Vision</a>
+      <a href="#story" data-nav data-i18n="nav.story">Story</a>
+      <a href="#team" data-nav data-i18n="nav.team">Team</a>
+      <a href="#alginite" data-nav data-i18n="nav.alginite">Alginite</a>
+      <a href="#approach" data-nav data-i18n="nav.approach">Approach</a>
+      <a href="#partnership" data-nav data-i18n="nav.science">Science</a>
+      <a href="#join" class="nav-cta" data-nav data-i18n="nav.join">Join us</a>
     </nav>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+    <div class="header-actions">
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button type="button" class="lang-btn" data-lang-btn="en">EN</button>
+        <button type="button" class="lang-btn" data-lang-btn="hu">HU</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
 </header>
 
 <!-- MOBILE MENU -->
 <div class="mobile-menu" id="mobileMenu">
   <nav>
-    <a href="#vision" data-nav>Vision</a>
-    <a href="#story" data-nav>Story</a>
-    <a href="#team" data-nav>Team</a>
-    <a href="#alginite" data-nav>Alginite</a>
-    <a href="#approach" data-nav>Approach</a>
-    <a href="#partnership" data-nav>Science</a>
-    <a href="#join" data-nav>Join us</a>
+    <a href="#vision" data-nav data-i18n="nav.vision">Vision</a>
+    <a href="#story" data-nav data-i18n="nav.story">Story</a>
+    <a href="#team" data-nav data-i18n="nav.team">Team</a>
+    <a href="#alginite" data-nav data-i18n="nav.alginite">Alginite</a>
+    <a href="#approach" data-nav data-i18n="nav.approach">Approach</a>
+    <a href="#partnership" data-nav data-i18n="nav.science">Science</a>
+    <a href="#join" data-nav data-i18n="nav.join">Join us</a>
   </nav>
   <div class="mobile-menu-foot">info@algisoil.com</div>
 </div>
@@ -68,27 +74,27 @@
     <div class="hero-blob blob-2" aria-hidden="true"></div>
 
     <div class="container hero-inner">
-      <p class="eyebrow reveal">Bio-based soil technology</p>
-      <h1 class="hero-title reveal">
+      <p class="eyebrow reveal" data-i18n="hero.eyebrow">Bio-based soil technology</p>
+      <h1 class="hero-title reveal" data-i18n="hero.title">
         Water scarcity and drought are growing challenges for agriculture.
       </h1>
-      <p class="hero-sub reveal">
+      <p class="hero-sub reveal" data-i18n="hero.sub">
         AlgiSoil's bio-based solution, built on fossil alginite, improves soil water retention,
         supports root development, and strengthens plant resilience.
       </p>
       <div class="hero-actions reveal">
-        <a href="#join" class="btn btn-primary">Join our community</a>
-        <a href="#vision" class="btn btn-ghost">Our vision ↓</a>
+        <a href="#join" class="btn btn-primary" data-i18n="hero.cta.primary">Join our community</a>
+        <a href="#vision" class="btn btn-ghost" data-i18n="hero.cta.secondary">Our vision ↓</a>
       </div>
     </div>
 
-    <div class="scroll-cue" aria-hidden="true"><span></span>Scroll</div>
+    <div class="scroll-cue" aria-hidden="true" data-i18n="hero.scroll"><span></span>Scroll</div>
   </section>
 
   <!-- PARTNER STRIP -->
   <section class="partners">
     <div class="container">
-      <p class="partners-label reveal">Built with science. Tested with farmers.</p>
+      <p class="partners-label reveal" data-i18n="partners.label">Built with science. Tested with farmers.</p>
     </div>
     <div class="marquee">
       <div class="marquee-track">
@@ -103,7 +109,7 @@
   <!-- STATEMENT -->
   <section class="statement">
     <div class="container">
-      <p class="statement-text reveal">
+      <p class="statement-text reveal" data-i18n="statement.text">
         The future of agriculture will not be determined by <em>faster machines</em>,
         but by <span class="hl">healthier soils.</span>
       </p>
@@ -113,44 +119,44 @@
   <!-- WHY IT MATTERS -->
   <section class="section why" id="why">
     <div class="container">
-      <span class="tag reveal">Why it matters</span>
-      <h2 class="section-title reveal">A drier climate is already reshaping agriculture.</h2>
+      <span class="tag reveal" data-i18n="why.tag">Why it matters</span>
+      <h2 class="section-title reveal" data-i18n="why.title">A drier climate is already reshaping agriculture.</h2>
 
       <div class="stats-grid">
         <div class="stat-card reveal">
           <div class="stat-number"><span class="from">23</span><span class="arrow">→</span><span class="count" data-target="48">0</span></div>
-          <div class="stat-unit">days</div>
-          <h3>More extreme heat</h3>
-          <p>The number of hot days in Hungary more than doubled between 2016 and 2025.</p>
+          <div class="stat-unit" data-i18n="why.stat1.unit">days</div>
+          <h3 data-i18n="why.stat1.title">More extreme heat</h3>
+          <p data-i18n="why.stat1.desc">The number of hot days in Hungary more than doubled between 2016 and 2025.</p>
         </div>
         <div class="stat-card reveal">
           <div class="stat-number"><span class="from">144</span><span class="arrow">→</span><span class="count" data-target="121">0</span></div>
-          <div class="stat-unit">days</div>
-          <h3>Fewer rainy days</h3>
-          <p>Over the same period, the number of days with precipitation fell from 144 to 121.</p>
+          <div class="stat-unit" data-i18n="why.stat2.unit">days</div>
+          <h3 data-i18n="why.stat2.title">Fewer rainy days</h3>
+          <p data-i18n="why.stat2.desc">Over the same period, the number of days with precipitation fell from 144 to 121.</p>
         </div>
         <div class="stat-card reveal">
           <div class="stat-number huf"><span class="count" data-target="113.5" data-decimals="1">0</span></div>
-          <div class="stat-unit">billion HUF</div>
-          <h3>The economic cost is already here</h3>
-          <p>At least HUF 113.5 billion was paid in drought-related compensation in Hungary between 2022 and 2025.</p>
+          <div class="stat-unit" data-i18n="why.stat3.unit">billion HUF</div>
+          <h3 data-i18n="why.stat3.title">The economic cost is already here</h3>
+          <p data-i18n="why.stat3.desc">At least HUF 113.5 billion was paid in drought-related compensation in Hungary between 2022 and 2025.</p>
         </div>
         <div class="stat-card reveal">
           <div class="stat-number huf"><span class="count" data-target="49.7" data-decimals="1">0</span></div>
-          <div class="stat-unit">billion HUF</div>
-          <h3>In a single year</h3>
-          <p>In 2022 alone, drought-related compensation reached HUF 49.7 billion.</p>
+          <div class="stat-unit" data-i18n="why.stat4.unit">billion HUF</div>
+          <h3 data-i18n="why.stat4.title">In a single year</h3>
+          <p data-i18n="why.stat4.desc">In 2022 alone, drought-related compensation reached HUF 49.7 billion.</p>
         </div>
       </div>
 
       <div class="why-copy">
-        <p class="reveal">Drought is not only an environmental problem. It is an economic one.
+        <p class="reveal" data-i18n="why.p1">Drought is not only an environmental problem. It is an economic one.
         More heat. Less reliable rainfall. Greater pressure on crops, soils and farmers.</p>
-        <p class="reveal">The question is no longer only how much water we have —
+        <p class="reveal" data-i18n="why.p2">The question is no longer only how much water we have —
         but how much of it our soils can retain. That is where AlgiSoil comes in.</p>
-        <p class="reveal">We are developing bio-based soil technologies designed to improve water retention,
+        <p class="reveal" data-i18n="why.p3">We are developing bio-based soil technologies designed to improve water retention,
         strengthen the root zone and help plants withstand increasingly dry conditions.</p>
-        <p class="lead-out reveal">More resilient soils. More resilient agriculture.</p>
+        <p class="lead-out reveal" data-i18n="why.leadout">More resilient soils. More resilient agriculture.</p>
       </div>
     </div>
   </section>
@@ -159,21 +165,21 @@
   <section class="section vision" id="vision">
     <div class="container vision-grid">
       <div class="vision-copy">
-        <span class="tag reveal">Our vision</span>
-        <h2 class="section-title reveal">A New Era in Agriculture</h2>
-        <p class="reveal">Agriculture is changing, and the soil is often where that change becomes visible first.
+        <span class="tag reveal" data-i18n="vision.tag">Our vision</span>
+        <h2 class="section-title reveal" data-i18n="vision.title">A New Era in Agriculture</h2>
+        <p class="reveal" data-i18n="vision.p1">Agriculture is changing, and the soil is often where that change becomes visible first.
         Longer dry periods, higher temperatures and less predictable rainfall are making water harder to keep
         where plants need it most. At the same time, many soils are losing structure, organic matter and
         biological activity — exactly the qualities that help them cope when conditions become difficult.</p>
-        <p class="reveal">For growers, this is very practical. Young plants establish more slowly, roots face
+        <p class="reveal" data-i18n="vision.p2">For growers, this is very practical. Young plants establish more slowly, roots face
         greater stress, irrigation becomes more important, and every failed planting has a cost.</p>
-        <p class="reveal">We believe part of the answer is already beneath our feet. At AlgiSoil, we bring
+        <p class="reveal" data-i18n="vision.p3">We believe part of the answer is already beneath our feet. At AlgiSoil, we bring
         together farmers' experience and scientific research to understand what soils need under real growing
         conditions. We develop bio-based solutions that work in the root zone, helping soils retain water and
         giving young plants a better start when water is limited.</p>
-        <p class="reveal">Because resilience is not an abstract idea. It is whether a plant establishes, whether
+        <p class="reveal" data-i18n="vision.p4">Because resilience is not an abstract idea. It is whether a plant establishes, whether
         a grower needs to irrigate again, and whether a field can remain productive through another dry season.</p>
-        <p class="lead-out reveal">Products the soil needs. Solutions farmers can rely on.</p>
+        <p class="lead-out reveal" data-i18n="vision.leadout">Products the soil needs. Solutions farmers can rely on.</p>
       </div>
       <div class="vision-visual reveal" aria-hidden="true">
         <svg viewBox="0 0 400 500" class="root-svg">
@@ -188,26 +194,26 @@
         </svg>
       </div>
     </div>
-    <p class="micro-quote reveal">Soil is Europe's largest — yet least monitored — ecosystem.</p>
+    <p class="micro-quote reveal" data-i18n="vision.microquote">Soil is Europe's largest — yet least monitored — ecosystem.</p>
   </section>
 
   <!-- STORY -->
   <section class="section story-section" id="story">
     <div class="story-wordmark" aria-hidden="true">AlgiSoil</div>
     <div class="container">
-      <span class="tag reveal">Our story</span>
-      <h2 class="section-title reveal">AlgiSoil is, at its core, a story of friends.</h2>
+      <span class="tag reveal" data-i18n="story.tag">Our story</span>
+      <h2 class="section-title reveal" data-i18n="story.title">AlgiSoil is, at its core, a story of friends.</h2>
       <div class="story-copy">
-        <p class="reveal">We came to agriculture from different directions, but quickly found ourselves talking
+        <p class="reveal" data-i18n="story.p1">We came to agriculture from different directions, but quickly found ourselves talking
         about the same things. Often over a glass of wine: what is changing around us, what growers are already
         dealing with, and whether we could build something genuinely useful in response.</p>
-        <p class="reveal">Drought, water scarcity and declining soil health kept coming back into those
+        <p class="reveal" data-i18n="story.p2">Drought, water scarcity and declining soil health kept coming back into those
         conversations. Not as distant problems, but as things we were already seeing in the fields.</p>
-        <p class="reveal">We were never interested in building something that worked only in theory. We wanted
+        <p class="reveal" data-i18n="story.p3">We were never interested in building something that worked only in theory. We wanted
         to create a practical solution — something rooted in science, tested in real conditions, and useful to
         the people working with the soil every day.</p>
-        <p class="reveal">That is how AlgiSoil began.</p>
-        <p class="lead-out reveal">Starting with the soil, because that is where resilience begins.</p>
+        <p class="reveal" data-i18n="story.p4">That is how AlgiSoil began.</p>
+        <p class="lead-out reveal" data-i18n="story.leadout">Starting with the soil, because that is where resilience begins.</p>
       </div>
     </div>
   </section>
@@ -215,16 +221,16 @@
   <!-- TEAM -->
   <section class="section team" id="team">
     <div class="container">
-      <span class="tag reveal">About the team</span>
-      <h2 class="section-title reveal">The people behind AlgiSoil</h2>
+      <span class="tag reveal" data-i18n="team.tag">About the team</span>
+      <h2 class="section-title reveal" data-i18n="team.title">The people behind AlgiSoil</h2>
 
       <div class="team-grid">
 
         <article class="team-card reveal">
           <div class="avatar" data-initials="ZV"></div>
           <h3>Zsombor Virág</h3>
-          <p class="role">Co-founder &amp; CEO</p>
-          <p class="bio">I grew up around farming — that background shaped how I see agriculture: not as an
+          <p class="role" data-i18n="team.role1">Co-founder &amp; CEO</p>
+          <p class="bio" data-i18n="team.bio1">I grew up around farming — that background shaped how I see agriculture: not as an
           industry to optimize, but as a system to understand. Climate change made the question of soil health
           urgent. Together with Luca and our team, we work with researchers and farmers to restore what modern
           agriculture has been slowly depleting, through science-backed, alginite-based soil amendments.
@@ -234,8 +240,8 @@
         <article class="team-card reveal">
           <div class="avatar" data-initials="LV"></div>
           <h3>Luca Kata Vastag</h3>
-          <p class="role">Co-founder &amp; COO</p>
-          <p class="bio">A trained viticulturist and winemaker — agriculture has never been just part of my work,
+          <p class="role" data-i18n="team.role2">Co-founder &amp; COO</p>
+          <p class="bio" data-i18n="team.bio2">A trained viticulturist and winemaker — agriculture has never been just part of my work,
           it has always been closely woven into my life. I've seen first-hand how quickly the conditions growers
           work in are changing. It is important to me that we build not only what we create, but also how we
           create it — the way we think, the culture of our team, and the values that guide our decisions.</p>
@@ -244,8 +250,8 @@
         <article class="team-card reveal">
           <div class="avatar" data-initials="AO"></div>
           <h3>Attila Oszkó</h3>
-          <p class="role">Co-founder &amp; CFO</p>
-          <p class="bio">Good soil isn't just a resource — it's the foundation of everything. Working across
+          <p class="role" data-i18n="team.role3">Co-founder &amp; CFO</p>
+          <p class="bio" data-i18n="team.bio3">Good soil isn't just a resource — it's the foundation of everything. Working across
           both the private and public sectors, I specialized in mastering complex organizational structures and
           navigating EU grants and funding systems. My mission is to ensure our vision for regenerative
           agriculture is backed by a rock-solid financial strategy.</p>
@@ -254,8 +260,8 @@
         <article class="team-card reveal">
           <div class="avatar" data-initials="AB"></div>
           <h3>Alács Bálint</h3>
-          <p class="role">CTO — Product Development &amp; Field Validation</p>
-          <p class="bio">As a chemical and biochemical engineer, I focus on how synthetic chemical procedures can
+          <p class="role" data-i18n="team.role4">CTO — Product Development &amp; Field Validation</p>
+          <p class="bio" data-i18n="team.bio4">As a chemical and biochemical engineer, I focus on how synthetic chemical procedures can
           be replaced by biotechnology and natural living systems. Our goal is not to deplete the soil's complex
           biological ecosystem with harsh chemicals, but to complement, nourish, and support its regeneration.</p>
         </article>
@@ -263,15 +269,15 @@
         <article class="team-card reveal">
           <div class="avatar" data-initials="LP"></div>
           <h3>Levente Pisák</h3>
-          <p class="role">Logistics &amp; Distribution — Horticulture Coordinator</p>
-          <p class="bio">Currently studying Commerce and Marketing while working on our family farm as the third
+          <p class="role" data-i18n="team.role5">Logistics &amp; Distribution — Horticulture Coordinator</p>
+          <p class="bio" data-i18n="team.bio5">Currently studying Commerce and Marketing while working on our family farm as the third
           generation involved in fruit production. My personal goal is to connect farmers' practical knowledge
           with scientific expertise, so we can develop effective solutions to today's agricultural challenges.</p>
         </article>
 
       </div>
     </div>
-    <p class="micro-quote light reveal">What we do to the soil, we do to ourselves.</p>
+    <p class="micro-quote light reveal" data-i18n="team.microquote">What we do to the soil, we do to ourselves.</p>
   </section>
 
   <!-- ALGINITE -->
@@ -283,16 +289,16 @@
         </div>
       </div>
       <div class="alginite-copy">
-        <span class="tag reveal">Why alginite?</span>
-        <h2 class="section-title reveal">Nature's hidden soil regenerator</h2>
-        <p class="reveal">For us, alginite is not just an ingredient — it's a starting point. A natural,
+        <span class="tag reveal" data-i18n="alginite.tag">Why alginite?</span>
+        <h2 class="section-title reveal" data-i18n="alginite.title">Nature's hidden soil regenerator</h2>
+        <p class="reveal" data-i18n="alginite.p1">For us, alginite is not just an ingredient — it's a starting point. A natural,
         versatile medium that restores soil structure, retains water, and brings life back into the system.</p>
-        <p class="reveal">Alginite is one of nature's hidden reserves: a unique combination of fossilized algae
+        <p class="reveal" data-i18n="alginite.p2">Alginite is one of nature's hidden reserves: a unique combination of fossilized algae
         and volcanic clay, forming a powerful soil-regenerating material. It improves structure, holds water,
         and reactivates biological life in the soil.</p>
-        <p class="reveal">We don't believe in promises — we believe in results. Because everything starts with
+        <p class="reveal" data-i18n="alginite.p3">We don't believe in promises — we believe in results. Because everything starts with
         the soil.</p>
-        <p class="lead-out reveal">Regenerating soil is regenerating the future.</p>
+        <p class="lead-out reveal" data-i18n="alginite.leadout">Regenerating soil is regenerating the future.</p>
       </div>
     </div>
   </section>
@@ -300,51 +306,51 @@
   <!-- APPROACH -->
   <section class="section approach" id="approach">
     <div class="container">
-      <span class="tag reveal">Our approach</span>
-      <h2 class="section-title reveal">From mine to field — connected by science</h2>
+      <span class="tag reveal" data-i18n="approach.tag">Our approach</span>
+      <h2 class="section-title reveal" data-i18n="approach.title">From mine to field — connected by science</h2>
       <div class="approach-grid">
-        <p class="approach-intro reveal">Most soil inputs fail because they are too generic, too expensive, or
+        <p class="approach-intro reveal" data-i18n="approach.intro">Most soil inputs fail because they are too generic, too expensive, or
         simply not adapted to real farming conditions. AlgiSoil takes a different path.</p>
         <div class="approach-steps">
           <div class="step reveal">
             <span class="step-index">01</span>
-            <h3>Listen to the field</h3>
-            <p>We work directly with farmers to understand real challenges.</p>
+            <h3 data-i18n="approach.step1.title">Listen to the field</h3>
+            <p data-i18n="approach.step1.desc">We work directly with farmers to understand real challenges.</p>
           </div>
           <div class="step reveal">
             <span class="step-index">02</span>
-            <h3>Co-develop with science</h3>
-            <p>We co-develop solutions with scientific partners and validate results through soil science.</p>
+            <h3 data-i18n="approach.step2.title">Co-develop with science</h3>
+            <p data-i18n="approach.step2.desc">We co-develop solutions with scientific partners and validate results through soil science.</p>
           </div>
           <div class="step reveal">
             <span class="step-index">03</span>
-            <h3>Test in real conditions</h3>
-            <p>Every solution is tested in real field conditions before it ever reaches a farmer.</p>
+            <h3 data-i18n="approach.step3.title">Test in real conditions</h3>
+            <p data-i18n="approach.step3.desc">Every solution is tested in real field conditions before it ever reaches a farmer.</p>
           </div>
         </div>
       </div>
-      <p class="lead-out center reveal">No greenwashing. No black-box products.<br>Just transparent, regenerative innovation that works in practice.</p>
+      <p class="lead-out center reveal" data-i18n="approach.leadout">No greenwashing. No black-box products.<br>Just transparent, regenerative innovation that works in practice.</p>
     </div>
   </section>
 
   <!-- SCIENTIFIC PARTNERSHIP -->
   <section class="section partnership" id="partnership">
     <div class="container">
-      <span class="tag reveal">Scientific partnership</span>
-      <h2 class="section-title reveal">Science you can rely on</h2>
+      <span class="tag reveal" data-i18n="partnership.tag">Scientific partnership</span>
+      <h2 class="section-title reveal" data-i18n="partnership.title">Science you can rely on</h2>
       <div class="partnership-grid">
         <div class="partnership-card reveal">
           <h3>MATE</h3>
-          <p class="pcard-sub">Hungarian University of Agriculture and Life Sciences</p>
-          <p>We validate our solutions through soil science, field trials and long-term monitoring.</p>
+          <p class="pcard-sub" data-i18n="partnership.card1.sub">Hungarian University of Agriculture and Life Sciences</p>
+          <p data-i18n="partnership.card1.desc">We validate our solutions through soil science, field trials and long-term monitoring.</p>
         </div>
         <div class="partnership-card reveal">
           <h3>BME</h3>
-          <p class="pcard-sub">Budapest University of Technology and Economics</p>
-          <p>We develop the technology behind our solutions — from activation to formulation.</p>
+          <p class="pcard-sub" data-i18n="partnership.card2.sub">Budapest University of Technology and Economics</p>
+          <p data-i18n="partnership.card2.desc">We develop the technology behind our solutions — from activation to formulation.</p>
         </div>
       </div>
-      <p class="lead-out center reveal">Two scientific perspectives, one goal: turning research into solutions that work in real agriculture.</p>
+      <p class="lead-out center reveal" data-i18n="partnership.leadout">Two scientific perspectives, one goal: turning research into solutions that work in real agriculture.</p>
     </div>
   </section>
 
@@ -358,21 +364,21 @@
     </div>
     <div class="container join-inner">
       <span class="tag reveal">AlgiSoil</span>
-      <h2 class="join-title reveal">Nature-powered. Farmer-driven. Science-backed.</h2>
-      <p class="join-copy reveal">Regenerating soil is one of the greatest challenges of our time. We're here to
+      <h2 class="join-title reveal" data-i18n="join.title">Nature-powered. Farmer-driven. Science-backed.</h2>
+      <p class="join-copy reveal" data-i18n="join.copy">Regenerating soil is one of the greatest challenges of our time. We're here to
       make it practical, accessible, and real — with solutions that work in the field. One field at a time.</p>
-      <a href="mailto:info@algisoil.com" class="btn btn-primary btn-large reveal">🌱 Join our community</a>
-      <p class="micro-quote light reveal">The biggest risk in agriculture is ignoring the soil.</p>
+      <a href="mailto:info@algisoil.com" class="btn btn-primary btn-large reveal" data-i18n="join.cta">🌱 Join our community</a>
+      <p class="micro-quote light reveal" data-i18n="join.microquote">The biggest risk in agriculture is ignoring the soil.</p>
     </div>
   </section>
 
   <!-- ARTICLES (coming soon) -->
   <section class="section articles" id="articles">
     <div class="container">
-      <span class="tag reveal">Articles &amp; Research</span>
-      <span class="soon-badge reveal">Coming soon</span>
-      <h2 class="section-title reveal">This is where we'll share what we're working on</h2>
-      <p class="reveal">Scientific results, field insights, and lessons from real-world trials. We don't just
+      <span class="tag reveal" data-i18n="articles.tag">Articles &amp; Research</span>
+      <span class="soon-badge reveal" data-i18n="articles.badge">Coming soon</span>
+      <h2 class="section-title reveal" data-i18n="articles.title">This is where we'll share what we're working on</h2>
+      <p class="reveal" data-i18n="articles.p">Scientific results, field insights, and lessons from real-world trials. We don't just
       talk about it — we show how it works.</p>
       <div class="articles-grid" aria-hidden="true">
         <div class="article-placeholder reveal"></div>
@@ -389,19 +395,19 @@
   <div class="container footer-inner">
     <div class="footer-brand">
       <a href="#top" class="brand">Algi<span>Soil</span></a>
-      <p>Soil holds more than roots — it holds the future.</p>
+      <p data-i18n="footer.tagline">Soil holds more than roots — it holds the future.</p>
     </div>
     <nav class="footer-nav">
-      <a href="#vision">Vision</a>
-      <a href="#story">Story</a>
-      <a href="#team">Team</a>
-      <a href="#alginite">Alginite</a>
-      <a href="#approach">Approach</a>
-      <a href="#partnership">Science</a>
+      <a href="#vision" data-i18n="nav.vision">Vision</a>
+      <a href="#story" data-i18n="nav.story">Story</a>
+      <a href="#team" data-i18n="nav.team">Team</a>
+      <a href="#alginite" data-i18n="nav.alginite">Alginite</a>
+      <a href="#approach" data-i18n="nav.approach">Approach</a>
+      <a href="#partnership" data-i18n="nav.science">Science</a>
     </nav>
     <div class="footer-contact">
       <p><a href="mailto:info@algisoil.com">info@algisoil.com</a></p>
-      <p class="footer-copy">© <span id="year"></span> AlgiSoil. All rights reserved.</p>
+      <p class="footer-copy">© <span id="year"></span> AlgiSoil. <span data-i18n="footer.rights">All rights reserved.</span></p>
     </div>
   </div>
 </footer>
