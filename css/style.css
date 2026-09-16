@@ -286,6 +286,7 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
   z-index: 1;
 }
 .line-svg { width: 100%; height: 100%; }
+.line-svg-mobile { display: none; }
 .wire {
   fill: none;
   stroke-width: 3.5;
@@ -779,4 +780,6 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
   .statement { padding: 64px 0 84px; }
   .story-wordmark { font-size: 5.2rem; }
   .marquee-track span { font-size: 1rem; }
+  .line-svg-desktop { display: none; }
+  .line-svg-mobile { display: block; }
 }
