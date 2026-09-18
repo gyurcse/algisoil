@@ -211,6 +211,8 @@ document.addEventListener('DOMContentLoaded', () => {
       'articles.title': 'Itt fogjuk megosztani, min dolgozunk',
       'articles.p': 'Tudományos eredmények, terepi tapasztalatok és valós kísérletek tanulságai. Nem csak beszélünk róla — megmutatjuk, hogyan működik.',
 
+      'partnersLogos.tag': 'Partnereink',
+
       'footer.tagline': 'A talaj több, mint gyökereket tart — a jövőt is tartja.',
       'footer.rights': 'Minden jog fenntartva.',
 
