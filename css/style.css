@@ -757,20 +757,15 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
    Partner logos block
    ========================================================================== */
 .partners-logos { background: var(--charcoal-2); text-align: center; }
-.partners-logos .tag { margin-bottom: 40px; }
-.partners-logos-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 48px;
-}
+.partners-logos .tag { margin-bottom: 8px; }
+.partners-logos .marquee-track { animation-duration: 22s; }
 .partner-logo {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 140px;
   height: 48px;
+  flex-shrink: 0;
 }
 .partner-logo img {
   max-width: 100%;
@@ -833,7 +828,6 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
   .team-grid { grid-template-columns: 1fr; }
   .articles-grid { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; gap: 28px; }
-  .partners-logos-row { gap: 32px; }
   .partner-logo { width: 120px; height: 42px; }
   .statement { padding: 64px 0 84px; }
   .story-wordmark { font-size: 5.2rem; }
