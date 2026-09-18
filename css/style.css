@@ -589,7 +589,10 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
   margin-bottom: 18px;
 }
 .avatar::before { content: attr(data-initials); }
+.team-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .team-card h3 { font-size: 1.1rem; margin-bottom: 2px; }
+.linkedin-link { display: inline-flex; color: var(--text-soft); transition: color 0.3s var(--ease); flex-shrink: 0; }
+.linkedin-link:hover { color: var(--lime-dark); }
 .team-card .role { font-size: 0.85rem; color: var(--lime-dark); font-weight: 600; margin-bottom: 14px; }
 .team-card .bio { font-size: 0.9rem; color: var(--text-soft); }
 
