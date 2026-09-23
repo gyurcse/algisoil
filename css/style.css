@@ -453,6 +453,7 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
 .approach { background: var(--off-white); }
 .partnership { background: var(--paper); }
 .join { background: var(--black); color: var(--off-white); overflow: hidden; position: relative; }
+.experiment { background: var(--paper); }
 .articles { background: var(--charcoal-2); color: var(--off-white); }
 
 .story-copy, .vision-copy { max-width: 640px; }
@@ -693,6 +694,14 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
 }
 .join-copy { color: rgba(246,247,241,0.72); margin-bottom: 34px; }
 .join-lines { z-index: 1; opacity: 0.7; }
+
+/* ==========================================================================
+   Experiment with us
+   ========================================================================== */
+.experiment-inner { text-align: center; max-width: 640px; margin: 0 auto; }
+.experiment-intro { font-size: 1.15rem; font-weight: 600; color: var(--text); margin-top: 14px; margin-bottom: 10px; }
+.experiment-inner > p { color: var(--text-soft); margin-bottom: 18px; }
+.experiment-inner .btn { margin-top: 10px; }
 
 /* ==========================================================================
    Articles
