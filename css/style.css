@@ -746,13 +746,15 @@ h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: -0
   display: flex;
   flex-direction: column;
   border-radius: var(--radius);
-  border: 1px solid var(--line-dark);
-  background: rgba(246,247,241,0.03);
+  border: 1.5px solid rgba(185,211,50,0.6);
+  background: var(--charcoal);
+  box-shadow: 0 18px 40px -18px rgba(0,0,0,0.6);
   overflow: hidden;
   color: var(--off-white);
-  transition: transform 0.4s var(--ease), border-color 0.3s;
+  transition: transform 0.4s var(--ease), border-color 0.3s, box-shadow 0.4s var(--ease);
 }
-.article-card:hover { transform: translateY(-4px); border-color: rgba(185,211,50,0.5); }
+.article-card:hover { transform: translateY(-4px); border-color: var(--lime); box-shadow: 0 24px 50px -18px rgba(0,0,0,0.7), 0 0 0 1px rgba(185,211,50,0.25); }
+.article-card-img { border-bottom: 1px solid rgba(185,211,50,0.3); }
 .article-card-img { aspect-ratio: 16/10; overflow: hidden; }
 .article-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.6s var(--ease); }
 .article-card:hover .article-card-img img { transform: scale(1.04); }
