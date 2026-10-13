@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
       'experiment.cta': '🌱 Kísérletezz otthon!',
 
       'articles.tag': 'Cikkek és kutatások',
-      'articles.badge': 'Hamarosan',
+      'articles.read': 'Elolvasom a cikket →',
       'articles.title': 'Itt fogjuk megosztani, min dolgozunk',
       'articles.p': 'Tudományos eredmények, terepi tapasztalatok és valós kísérletek tanulságai. Nem csak beszélünk róla — megmutatjuk, hogyan működik.',
 
